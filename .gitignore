@@ -1,0 +1,50 @@
+# Python virtual environment
+venv/
+.env
+
+# Bytecode and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / Packaging
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Uploaded or generated files
+uploads/
+*.pptx
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.docx
+
+# Testing / Coverage
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# SQLite or other DB files
+*.db
+*.sqlite3
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Environment config
+.env.*
