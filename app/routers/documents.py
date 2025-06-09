@@ -2,7 +2,6 @@ from fastapi import APIRouter, Depends, File, UploadFile, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
 import os
-
 from ..database import get_db
 from ..models import Document
 from ..services.document_processor import DocumentProcessor

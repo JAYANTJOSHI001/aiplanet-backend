@@ -1,7 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
-
 from ..database import get_db
 from ..models import Document
 from ..services.qa_service import QAService
@@ -9,6 +8,7 @@ from ..services.qa_service import QAService
 router = APIRouter(prefix="/chat", tags=["chat"])
 qa_service = QAService()
 
+# Request and response models
 class QuestionRequest(BaseModel):
     document_id: int
     question: str
