@@ -66,4 +66,4 @@ POST	/chat	Ask questions from uploaded PDF
 
 Frontend Repository
 You can find the frontend interface for this application here:
-👉 Frontend Repository: [Backend Repository](https://github.com/JAYANTJOSHI001/aiplant-frontend)
+👉 Frontend Repository: [Frontend Repository](https://github.com/JAYANTJOSHI001/aiplant-frontend)
