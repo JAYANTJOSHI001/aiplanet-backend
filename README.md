@@ -5,7 +5,7 @@ This repository contains the backend for the PDF Question Answering (QA) applica
 ---
 
 ## Project Structure
-
+```plaintext
 backend/
 ├── app/
 │ ├── routers/ # API route handlers
@@ -23,6 +23,7 @@ backend/
 ├── .gitignore
 ├── requirements.txt # Python dependencies
 ├── aiplanet.db # Local SQLite database
+```
 
 
 ## Getting Started
